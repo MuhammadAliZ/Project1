@@ -9,8 +9,8 @@ int main(void)
   printf("y is %i\n", y);
 
   int temp = x;
-
-  temp = y;
+  x = y;
+  y = temp;
   //Swapping....
 
   printf("x is now %i\n", x);
