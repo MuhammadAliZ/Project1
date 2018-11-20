@@ -9,7 +9,7 @@ int main(void)
   printf("y is %i\n", y);
 
   int temp = x;
-  x = y;
+
   temp = y;
   //Swapping....
 
